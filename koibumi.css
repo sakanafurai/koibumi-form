@@ -138,12 +138,12 @@ button#koibumi_btn {
 
 button#koibumi_btn:hover {
   background: #f3567a;
-}*/
+}
 
 div#koibumi_wrap p.attention {
     font-size: 10px;
     opacity: .5;
-}
+}*/
 
 .koibumifadeout {
   animation : koibumifadeout 1s !important;
