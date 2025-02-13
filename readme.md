@@ -14,7 +14,7 @@ do様で配布している「[ひとことフォーム コイブミ](https://do.
 / (root)
 │
 ├─koibumi-form（このフォーム）
-│    index.php
+│    index.html
 │    koibumi.css
 │
 └─koibumi_app（コイブミ本体）
