@@ -125,14 +125,40 @@
       </div>
     </section>
 
+    <!-- 返信カードここから -->
     <section class="hero">
       <div class="container hero-body is-flex is-justify-content-center">
         <div class="card p-6" id="container">
-          <div class="card-content">
+
+          <!-- 受け取ったメッセージの内容 -->
+          <div class="card-content pb-0">
+            <p class="block">
+            メッセージ本文
+            </p>
+            <!-- 日付 -->
+            <p class="help has-text-right">2025−04−01</p><!-- 日付 -->
+          </div>
+          <hr>
+
+          <!-- メッセージへの返信の内容 -->
+          <div class="card-content pt-0">
+            <p class="block">
+            返信メッセージ
+            </p>
+            <div class="is-flex is-flex-direction-row is-justify-content-right is-align-items-center">
+            <!-- アイコン -->
+              <figure class="image is-32x32 mr-2">
+                <img class="is-rounded" src="https://bulma.io/assets/images/placeholders/32x32.png" />
+              </figure>
+            <!-- 名前 -->
+              <p class="">名前</p>
+            </div>
+
           </div>
         </div>
       </div>
     </section>
+    <!-- 返信カードここまで -->
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     <script src="../koibumi_app/koibumi.js"></script>
