@@ -25,6 +25,11 @@ figure.user-icon {
   margin: 0 auto;
 }
 
+textarea#koibumi_text {
+  border-color: #bbb;
+  box-shadow: none;
+}
+
 div#koibumi_wrap {
 /*  max-width: 100%;
   width: 400px;
