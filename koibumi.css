@@ -21,6 +21,10 @@ div.card {
   width: 700px;
 }
 
+figure.user-icon {
+  margin: 0 auto;
+}
+
 div#koibumi_wrap {
 /*  max-width: 100%;
   width: 400px;
