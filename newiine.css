@@ -115,26 +115,26 @@ button.newiine_btn div.newiine_thanks {
   pointer-events: none;
 }
 
-button.newiine_btn div.newiine_thanks:after {
+/*button.newiine_btn div.newiine_thanks:after {
   content: '';
   width: 0px;
   height: 0px;
   position: absolute;
   left: 20px;
-}
+}*/
 
 button.newiine_btn div.newiine_thanks_up {
   bottom: 140%;
   animation-name: newiine_thanks-up;
 }
 
-button.newiine_btn div.newiine_thanks_up:after {
+/*button.newiine_btn div.newiine_thanks_up:after {
   border-bottom: 10px solid transparent;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid white;
   top: calc(100% - 1px);
-}
+}*/
 
 button.newiine_btn div.newiine_thanks_down {
   top: 140%;
