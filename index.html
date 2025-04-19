@@ -96,14 +96,15 @@
             <div id="koibumi_form">
               <input type="hidden" id="koibumi_token">
               <!-- <input type="text" id="koibumi_text" placeholder="ひとこと送る"> -->
-              <textarea class="textarea mb-5" name="name" rows="5" id="koibumi_text" placeholder="ひとこと送る"></textarea>
+              <textarea class="textarea mb-1" name="name" rows="5" id="koibumi_text" placeholder="ひとこと送る"></textarea>
+              <p class="attention block help has-text-grey m-0 mb-4">
+              <span id="koibumi_nowlength">0</span> / <span id="koibumi_limitMessage"></span>　同一IPアドレスからの送信は一日<span id="koibumi_limitIP"></span>回まで</p>
+
+              <!--<p class="block m-0 mb-5">追加の内容をここに入力<br>
+              注意事項、他の連絡方法など</p>-->
               <button class="button is-link mb-5" type="submit" id="koibumi_btn">送信</button>
             </div>
-            <p class="attention block help has-text-grey m-0">メッセージは<span id="koibumi_limitMessage"></span>文字まで、同一IPアドレスからの送信は一日<span id="koibumi_limitIP"></span>回まで<br>
-            現在文字数　<span id="koibumi_nowlength">0</span>文字</p>
 
-            <!--<p class="block m-0 mb-1">追加の内容をここに入力<br>
-            注意事項、他の連絡方法など</p>-->
 
             <p class="" id="koibumi_alert" style="display: none;"></p>
             <!-- お礼メッセージここから -->
