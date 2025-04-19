@@ -6,7 +6,7 @@
     <title>フォーム</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
     <link rel="stylesheet" href="koibumi.css">
-
+    <link rel="stylesheet" href="newiine.css">
   </head>
   <body>
 
@@ -16,6 +16,76 @@
 
           <!-- タイトル -->
           <h1 class="title is-4 m-0 p-0 mb-4 has-text-centered">フォーム</h1>
+
+          <!-- ボタンコンテナ -->
+          <div class="is-flex is-justify-content-center mb-4">
+
+          <!-- いいねボタン改ここから -->
+            <button type="submit" class="newiine_btn newiine_type02 mr-1" data-iinename="button1">
+              <span class="emoji">💛</span><br>
+              <span class="newiine_count"></span>
+
+            <!-- お礼メッセージここから -->
+            <div class="newiine_thanks newiine_thanks_up" style="display:none;">
+              <div class="newiine_box">
+              <img src="newiine_app/example.jpg" alt="THANK YOU!">
+              <p>ありがとうございます！</p>
+              </div>
+            </div>
+            <!-- お礼メッセージここまで -->
+            </button>
+          <!-- いいねボタン改ここまで -->
+
+          <!-- いいねボタン改ここから -->
+            <button type="submit" class="newiine_btn newiine_type02 mr-1" data-iinename="button2">
+              <span class="emoji">🎉</span><br>
+              <span class="newiine_count"></span>
+
+            <!-- お礼メッセージここから -->
+            <div class="newiine_thanks newiine_thanks_up" style="display:none;">
+              <div class="newiine_box">
+              <img src="newiine_app/example.jpg" alt="THANK YOU!">
+              <p>ありがとうございます！</p>
+              </div>
+            </div>
+            <!-- お礼メッセージここまで -->
+            </button>
+          <!-- いいねボタン改ここまで -->
+
+          <!-- いいねボタン改ここから -->
+            <button type="submit" class="newiine_btn newiine_type02 mr-1" data-iinename="button3">
+              <span class="emoji">📣</span><br>
+              <span class="newiine_count"></span>
+
+            <!-- お礼メッセージここから -->
+            <div class="newiine_thanks newiine_thanks_up" style="display:none;">
+              <div class="newiine_box">
+              <img src="newiine_app/example.jpg" alt="THANK YOU!">
+              <p>ありがとうございます！</p>
+              </div>
+            </div>
+            <!-- お礼メッセージここまで -->
+            </button>
+          <!-- いいねボタン改ここまで -->
+
+                    <!-- いいねボタン改ここから -->
+            <button type="submit" class="newiine_btn newiine_type02" data-iinename="button4">
+              <span class="emoji">👋</span><br>
+              <span class="newiine_count"></span>
+
+            <!-- お礼メッセージここから -->
+            <div class="newiine_thanks newiine_thanks_up" style="display:none;">
+              <div class="newiine_box">
+              <img src="newiine_app/example.jpg" alt="THANK YOU!">
+              <p>ありがとうございます！</p>
+              </div>
+            </div>
+            <!-- お礼メッセージここまで -->
+            </button>
+          <!-- いいねボタン改ここまで -->
+
+          </div>
+          <!-- ボタンコンテナここまで -->
 
           <!-- コイブミここから -->
           <div id="koibumi_wrap" class="is-flex is-flex-direction-column">
@@ -48,6 +118,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     <script src="../koibumi_app/koibumi.js"></script>
+    <script src="newiine_app/newiine.js"></script>
 
   </body>
 </html>
